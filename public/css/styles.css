@@ -9,10 +9,10 @@ a{
 	color:inherit;
 }
 
-//Banner
+/*Banner */
 
-.banner .main-cover{
-	background:url('../images/cover.png');
+.banner .main_cover{
+	background-image: url("../images/cover.png");
 	height: 465px;
 	background-size: cover;
 	background-position: center center;
