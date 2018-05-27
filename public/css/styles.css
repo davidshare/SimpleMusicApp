@@ -8,3 +8,13 @@ a{
 	text-decoration:none;
 	color:inherit;
 }
+
+//Banner
+
+.banner .main-cover{
+	background:url('../images/cover.png');
+	height: 465px;
+	background-size: cover;
+	background-position: center center;
+	position:relative;
+}
