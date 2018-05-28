@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
 import Banner from './banner'
+import ArtistsList from './artistsList'
+
+const URL_ARTISTS = 'http://localhost:3004/artists'
 
 class Home extends Component{
-
-	const URL_ARTISTS = 'http://localhost:3004/artists'
 
 	constructor(props){
 		super(props);
@@ -19,6 +20,7 @@ class Home extends Component{
 		return(
 			<div>
 				<Banner />
+				<ArtistsList/>
 			</div>
 		)
 	}
