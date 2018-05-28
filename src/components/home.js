@@ -16,6 +16,17 @@ class Home extends Component{
 
 	}
 
+	componentDidMount(){
+		fetch(URL_ARTISTS, {
+			method:'GET'
+		})
+		.then(response => response.json())
+		.then(json => {
+			this.setState(artists:json)
+		})
+
+	}
+
 	render(){
 		return(
 			<div>
