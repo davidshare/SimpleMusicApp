@@ -78,3 +78,11 @@ header{
 	box-sizing: border-box;
 	padding:10px 30px;
 }
+
+.artist_bio .avatar span{
+	width:130px;
+	height: 130px;
+	display: block;
+	margin:0 auto;
+	background-size: cover !important;
+}
