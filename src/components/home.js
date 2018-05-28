@@ -13,7 +13,6 @@ class Home extends Component{
 		this.state = {
 			artists:''
 		}
-
 	}
 
 	componentDidMount(){
@@ -31,7 +30,7 @@ class Home extends Component{
 		return(
 			<div>
 				<Banner />
-				<ArtistsList/>
+				<ArtistsList allArtists={this.state.artists}/>
 			</div>
 		)
 	}
