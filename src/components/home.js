@@ -4,9 +4,11 @@ import Banner from './banner'
 
 class Home extends Component{
 
+	const URL_ARTISTS = 'http://localhost:3004/artists'
+
 	constructor(props){
 		super(props);
-		
+
 	}
 
 	render(){
