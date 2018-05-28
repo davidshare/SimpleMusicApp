@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
+
 import Header from './header'
+import AlbumList from './album_list.js'
 
 const REQ_URL = `http://localhost:3004/artists/`
+
 
 class Artist extends Component{
 	constructor(props){
@@ -37,8 +40,8 @@ class Artist extends Component{
 							{this.state.artist.bio}
 						</div>
 
-
 					</div>
+					<AlbumList />
 				</div>
 			</div>
 		)
