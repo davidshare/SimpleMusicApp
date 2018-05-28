@@ -1,10 +1,12 @@
 import React from 'react'
+import {Link} form 'react-router-dom'
 
 const ArtistsList = (props) =>{
-	console.log(props);
 
 	return(
-		<div>List</div>
+		<div>
+			
+		</div>
 	)
 }
 
