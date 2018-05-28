@@ -113,3 +113,25 @@ header{
 	float:left;
 	width: 50%;
 }
+
+@media(min-width: 801px){
+	.artist_list .artist_item{
+		width:30%;
+		float: left
+	}
+}
+	
+
+	@media(max-width: 480px){
+		.artist_list .artist_item{
+			width:100%;
+			float: left
+		}
+		
+	}
+
+.artist_list .artist_item:after{
+	clear:both;
+	display:table;
+	content:'';
+}
