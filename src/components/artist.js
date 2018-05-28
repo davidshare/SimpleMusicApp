@@ -33,6 +33,11 @@ class Artist extends Component{
 					</div>
 					<div className="bio">
 						<h3>{this.state.artist.name}</h3>
+						<div className="bio_text">
+							{this.state.artist.bio}
+						</div>
+
+
 					</div>
 				</div>
 			</div>
